@@ -18,12 +18,15 @@
 </head>
 <body>
     <h1>Desafio das Mensagens</h1>
-    <input id="botao1" type="button" value="Botão 1">
-    <input id="botao1" type="button" value="Botão 2">
-    <input id="botao1" type="button" value="Botão 3">
+    <input id="botao1" type="button" value="Botão 1" onclick="clicou1()">
+    <input id="botao1" type="button" value="Botão 2" onclick="clicou2()">
+    <input id="botao1" type="button" value="Botão 3" onclick="clicou3()">
 
     <script>
-       
+       function clicou1() {
+        var b1 = window.document.getElementById('botao1')
+        b1.document.alert('Você clicou no 1º botão') 
+       }
     </script>
 </body>
 </html>
