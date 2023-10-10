@@ -22,9 +22,13 @@
     <script>
         function calcular() {
             var pergunta = document.getElementById('botao')
-            var produto = 
-            window.prompt('Que produto você está comprando?')
-            window.prompt(`Quanto custa o ${produto} que você está comprando?`)
+            var produto = window.prompt('Que produto você está comprando?')
+            var preco = window.prompt(`Quanto custa o(a) ${produto} que você está comprando?`)
+            var valor = window.prompt(`Qual o valor que você deu para o(a) ${produto}?`)
+            var n1 = Number(preco.value)
+            var n2 = Number(valor.value)
+            var troco = n2 - n1
+           window.alert(`Você comprou um(a) ${produto}, que custou ${valor}. Deu ${preco} em dinheiro e vai receber ${troco} de troco.`)
         }
     </script>
 </body>
