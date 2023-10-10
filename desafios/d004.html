@@ -17,6 +17,15 @@
 </head>
 <body>
     <h1>Calculando o troco</h1>
-    <input type="button" value="Comprar produto">
+    <input id="botao" type="button" value="Comprar produto" onclick="calcular()">
+
+    <script>
+        function calcular() {
+            var pergunta = document.getElementById('botao')
+            var produto = 
+            window.prompt('Que produto você está comprando?')
+            window.prompt(`Quanto custa o ${produto} que você está comprando?`)
+        }
+    </script>
 </body>
 </html>
