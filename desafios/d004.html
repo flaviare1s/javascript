@@ -22,13 +22,15 @@
     <script>
         function calcular() {
             var pergunta = document.getElementById('botao')
-            var produto = window.prompt('Que produto você está comprando?')
-            var preco = window.prompt(`Quanto custa o(a) ${produto} que você está comprando?`)
-            var valor = window.prompt(`Qual o valor que você deu para o(a) ${produto}?`)
-            var n1 = Number(preco.value)
-            var n2 = Number(valor.value)
-            var troco = n2 - n1
-           window.alert(`Você comprou um(a) ${produto}, que custou ${valor}. Deu ${preco} em dinheiro e vai receber ${troco} de troco.`)
+            var produto = window.prompt('Que produto você está comprando?');
+            var preco = window.prompt(`Quanto custa o(a) ${produto} que você está comprando?`);
+            var valor = window.prompt(`Qual o valor que você deu para o(a) ${produto}?`);
+            var n1 = parseFloat(preco);
+            var n2 = parseFloat(valor);
+            var troco = n2 - n1;
+            preco = n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+            valor = n2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+           window.alert(`Você comprou um(a) ${produto}, que custou ${valor}. Deu ${preco} em dinheiro e vai receber ${troco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} de troco.`);
         }
     </script>
 </body>
