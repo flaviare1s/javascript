@@ -257,16 +257,11 @@ console.log('Terminei de contar!')
 */
 
 // Ex.18: 
-/*
-function main() {
-    var c = 0
-    var n = prompt('Até quanto você quer contar?')
 
-    while (c <= n) {
-        alert(`Contei ${c}`)
-        c++
-    }
-    alert('Terminei de contar!')
+var c = 10
+
+while (c >= 0) {
+    console.log(`Contei ${c}`)
+    c-2
 }
-main()
-*/
+console.log('Terminei de contar!')
