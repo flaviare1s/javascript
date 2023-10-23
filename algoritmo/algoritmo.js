@@ -148,9 +148,36 @@ function imc(){
 imc()
 */
 
-// Ex. 13: 
+// Ex. 13: Faixas de IMC:
 
+function imc(){
+    var massaInput = prompt('Qual o seu peso?');
+    var alturaInput = prompt('Qual a sua altura?');
 
+    massaInput = massaInput.replace(',', '.');
+    alturaInput = alturaInput.replace(',', '.');
 
+    var massa = parseFloat(massaInput);
+    var altura = parseFloat(alturaInput);
 
+    var imc = massa / (altura ** 2)
 
+    alert(`Seu IMC é ${imc}.`)
+
+    if(imc < 17) {
+        alert('Você está muito abaixo do peso!')
+    } else if(imc > 17 && imc < 18.5) {
+        alert('Você está abaixo do peso!')
+    } else if(imc >= 18.5 && imc < 25) {
+        alert('Parabéns! Você está no seu peso ideal!')
+    } else if(imc > 25 && imc < 30) {
+        alert('Você está com sobrepeso!')
+    } else if(imc > 30 && imc < 35) {
+        alert('Você está na faixa de obesidade!')
+    } else if(imc > 35 && imc < 40) {
+        alert('Você tem obesidade severa!')
+    } else {
+        alert('Cuidado! Você está com obesidade mórbida!')
+    }
+}
+imc()
