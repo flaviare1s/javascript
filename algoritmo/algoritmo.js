@@ -224,3 +224,21 @@ imc()
 imc()
 */
 
+// Ex. 15: Estrutura de repetição while:
+/*
+var c = 0
+
+while (c <= 10) {
+    console.log(`Conte ${c}`)
+    c++
+}
+*/
+
+// Ex.16: Do while
+/*
+var c = 0
+do {
+    console.log(`Conte ${c}`)
+    c++
+} while (c <= 10)
+*/
