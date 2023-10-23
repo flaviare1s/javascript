@@ -110,7 +110,7 @@ temperatura()
 */
 
 // Ex. 11: Par ou Ímpar:
-
+/*
 function parImpar() {
     var n = Number(prompt('Digite um número'));
 
@@ -121,7 +121,34 @@ function parImpar() {
     }
 }
 parImpar()
+*/
 
+// Ex. 12: Cálculo do IMC:
+/*
+function imc(){
+    var massaInput = prompt('Qual o seu peso?');
+    var alturaInput = prompt('Qual a sua altura?');
+
+    massaInput = massaInput.replace(',', '.');
+    alturaInput = alturaInput.replace(',', '.');
+
+    var massa = parseFloat(massaInput);
+    var altura = parseFloat(alturaInput);
+
+    var imc = massa / (altura ** 2)
+
+    alert(`Seu IMC é ${imc}.`)
+
+    if(imc >= 18.5 && imc < 25) {
+        alert('Parabéns! Você está no seu peso ideal!')
+    } else {
+        alert('Você não está na faixa de peso ideal!')
+    } 
+}
+imc()
+*/
+
+// Ex. 13: 
 
 
 
