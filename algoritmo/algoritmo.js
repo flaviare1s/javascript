@@ -270,3 +270,14 @@ function main() {
 }
 main()
 */
+
+// Ex.19: Incremento diferente de 1:
+/*
+var c = 0
+
+while (c <= 10) {
+    console.log(`Contei ${c}`)
+    c+=3
+}
+console.log('Terminei de contar!')
+*/
