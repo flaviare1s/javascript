@@ -109,6 +109,19 @@ function temperatura() {
 temperatura()
 */
 
+// Ex. 11: Par ou Ímpar:
+
+function parImpar() {
+    var n = Number(prompt('Digite um número'));
+
+    if(n % 2 === 0) {
+        alert('O número que você digitou é par!')
+    } else {
+        alert('O número que você digitou é ímpar!')
+    }
+}
+parImpar()
+
 
 
 
