@@ -247,9 +247,9 @@ console.log('Terminei de contar!')
 
 // Ex.17: Ordem descrecente:
 
-var c = 10
+var c = 0
 
-while (c >= 0) {
+while (c <= 10) {
     console.log(`Contei ${c}`)
     c--
 }
