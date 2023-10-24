@@ -25,12 +25,23 @@ console.log(fatorial(5))
 */
 
 // Ex. 25:
-
+/*
 function nome() {
     let nome = prompt('Digite seu nome') 
     alert(`Seu nome em maiúsculas é ${nome.toUpperCase()}`)
     alert(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
-    alert(`Seu nome tem ${nome.length} letras.`)
-    
+    alert(`Seu nome tem ${nome.length} letras.`)  
 }
 nome()
+*/
+
+// Ex. 26: Vetor:
+/*
+let v = [1, 8, 5, 'carro', 3, 6]
+
+console.log(v[3])
+
+console.log(v.length)
+
+console.log(typeof v)
+*/
