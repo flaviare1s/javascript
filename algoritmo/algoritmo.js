@@ -281,3 +281,10 @@ while (c <= 10) {
 }
 console.log('Terminei de contar!')
 */
+
+// Ex. 20: 
+/*
+for(var c = 0; c <= 10; c++) {
+    console.log(`Contei ${c}`)
+}
+*/
