@@ -23,3 +23,14 @@ function fatorial(n) {
 
 console.log(fatorial(5))
 */
+
+// Ex. 25:
+
+function nome() {
+    let nome = prompt('Digite seu nome') 
+    alert(`Seu nome em maiúsculas é ${nome.toUpperCase()}`)
+    alert(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
+    alert(`Seu nome tem ${nome.length} letras.`)
+    
+}
+nome()
