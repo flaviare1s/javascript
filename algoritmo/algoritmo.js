@@ -282,9 +282,17 @@ while (c <= 10) {
 console.log('Terminei de contar!')
 */
 
-// Ex. 20: 
+// Ex. 20: For:
 /*
 for(var c = 0; c <= 10; c++) {
     console.log(`Contei ${c}`)
+}
+*/
+
+// Ex. 21: Combinações (usei uma estrutura "for" dentro da outra):
+/*
+for(var c1 = 1; c1 <= 3; c1++) {
+    for(var c2 = 1; c2 <= 3; c2++)
+    console.log(c1, c2)
 }
 */
