@@ -2,7 +2,11 @@
 
 function fatorial() {
     const n = Number(prompt('Digite um número inteiro!'))
-    const x = 1
-
-    for (i = 1; n <= i; i++)
+    let fat = 1
+    for(let c = n; c > 1; c--) {
+        fat *= c
+    }
+    return fat
 }
+
+console.log(fatorial())
