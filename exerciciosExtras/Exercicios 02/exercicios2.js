@@ -41,4 +41,6 @@ EXERCÍCIOS:
     - Extraia partes de uma string usando métodos como substring ou slice.
     */
 
+ 
+
    
