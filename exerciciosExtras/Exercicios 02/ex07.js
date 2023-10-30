@@ -11,3 +11,8 @@ let pessoa = {
 }
 
 console.log(pessoa)
+console.log(`O nome da pessoa é ${pessoa.nome}`)
+
+pessoa.idade = 22
+
+console.log(`${pessoa.nome} fez ${pessoa.idade} anos de idade.`)
