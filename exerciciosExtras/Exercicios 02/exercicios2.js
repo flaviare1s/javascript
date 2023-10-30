@@ -43,11 +43,7 @@ EXERCÍCIOS:
 
 
 
-    /*
-5. *Funções:*
-   - Crie uma função que calcule a média de três números.
-   - Escreva uma função que converta graus Celsius para Fahrenheit.
-*/
+
 
 
 
