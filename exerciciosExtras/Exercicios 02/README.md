@@ -1,4 +1,4 @@
-/*
+
 EXERCÍCIOS:
 1. *Variáveis e Tipos de Dados:*
    - Crie uma variável para armazenar seu nome e exiba-a no console.
@@ -39,7 +39,7 @@ EXERCÍCIOS:
 10. *Manipulação de Strings:*
     - Concatene strings para criar uma frase.
     - Extraia partes de uma string usando métodos como substring ou slice.
-    */
+    
 
 
 
